@@ -1,18 +1,18 @@
-=======
-Boucles
-=======
+=====
+Loops
+=====
 
 .. contents:: :local:
 
-Boucle ``while``
-----------------
+``while``
+---------
 
 .. code-block:: python
     
     while i < 10:
         print("i =", i)
 
-Avec ``break`` et ``continue`` :
+With ``break`` and ``continue`` :
 
 .. code-block:: python
 
@@ -23,8 +23,8 @@ Avec ``break`` et ``continue`` :
         else:
             continue
         
-Boucle ``for``
---------------
+``for``
+-------
 
 Equivalent to ``foreach`` in C#
 
@@ -35,8 +35,8 @@ Equivalent to ``foreach`` in C#
     for i in myList:
         print(i)
         
-Boucle ``for`` "C-Style"
-------------------------
+``for`` "C-Style"
+-----------------
 
 * With ``range()``
 
@@ -56,26 +56,26 @@ Boucle ``for`` "C-Style"
     for i in range(a, n, s):
         print("list element", i, "is :", list[i])
         
-* With ``Enumerate()`` (returns a list of coupled values containing the list index with its associated element)
+* With ``Enumerate()`` : returns a list of coupled values containing the list index with its associated element
 
 Example :
 
 .. code-block:: python
 
-    ma_liste = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
+    my_list = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
     
-    for i, elt in enumerate(ma_liste):
-        print("À l'indice", i, "se trouve", elt)
+    for i, elt in enumerate(my_list):
+        print("At index", i, "is", elt)
         
 -> output :
       
     .. code-block:: none
 
-        À l'indice 0 se trouve a.
-        À l'indice 1 se trouve b.
-        À l'indice 2 se trouve c.
-        À l'indice 3 se trouve d.
-        À l'indice 4 se trouve e.
-        À l'indice 5 se trouve f.
-        À l'indice 6 se trouve g.
-        À l'indice 7 se trouve h.
+        At index 0 is a.
+        At index 1 is b.
+        At index 2 is c.
+        At index 3 is d.
+        At index 4 is e.
+        At index 5 is f.
+        At index 6 is g.
+        At index 7 is h.

@@ -10,8 +10,8 @@ Welcome to Python_OpenClassRoom's documentation!
    :titlesonly:
    
    modules
-   struct-conditionnelles
-   boucles
+   conditional-structures
+   loops
    exceptions
    strings
    lists-tuples
@@ -22,7 +22,7 @@ Welcome to Python_OpenClassRoom's documentation!
    iterators
    decorators
    regular_expressions
-   bonnes-pratiques
+   good-practices
 
 
 

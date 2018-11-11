@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -7,7 +6,7 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Index &#8212; Python_OpenClassRoom  documentation</title>
+    <title>Conditional structures &#8212; Python_OpenClassRoom  documentation</title>
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
@@ -15,8 +14,10 @@
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <link rel="index" title="Index" href="#" />
+    <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Boucles" href="boucles.html" />
+    <link rel="prev" title="Modules import" href="modules.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -33,11 +34,65 @@
 
           <div class="body" role="main">
             
-
-<h1 id="index">Index</h1>
-
-<div class="genindex-jumpbox">
- 
+  <div class="section" id="conditional-structures">
+<h1>Conditional structures<a class="headerlink" href="#conditional-structures" title="Permalink to this headline">¶</a></h1>
+<p>Example :</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">if</span> <span class="n">year</span> <span class="o">%</span> <span class="mi">400</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="n">bissextile</span> <span class="o">=</span> <span class="bp">True</span>
+<span class="k">elif</span> <span class="n">year</span> <span class="o">%</span> <span class="mi">100</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="n">bissextile</span> <span class="o">=</span> <span class="bp">False</span>
+<span class="k">elif</span> <span class="n">year</span> <span class="o">%</span> <span class="mi">4</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="n">bissextile</span> <span class="o">=</span> <span class="bp">True</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="n">bissextile</span> <span class="o">=</span> <span class="bp">False</span>
+</pre></div>
+</div>
+<table border="1" class="docutils">
+<colgroup>
+<col width="30%" />
+<col width="70%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Operator</th>
+<th class="head">Litteral meaning</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>&lt;</td>
+<td>Strictly less than</td>
+</tr>
+<tr class="row-odd"><td>&gt;</td>
+<td>Strictly greater than</td>
+</tr>
+<tr class="row-even"><td>&lt;=</td>
+<td>Greater than or equal to</td>
+</tr>
+<tr class="row-odd"><td>&gt;=</td>
+<td>Less than or equal to</td>
+</tr>
+<tr class="row-even"><td>==</td>
+<td>Equals to</td>
+</tr>
+<tr class="row-odd"><td>!=</td>
+<td>Different than</td>
+</tr>
+<tr class="row-even"><td>True</td>
+<td>bool “true”</td>
+</tr>
+<tr class="row-odd"><td>False</td>
+<td>bool “false”</td>
+</tr>
+<tr class="row-even"><td>and</td>
+<td>bool “and”</td>
+</tr>
+<tr class="row-odd"><td>or</td>
+<td>bool “or”</td>
+</tr>
+<tr class="row-even"><td>not</td>
+<td>bool “not”</td>
+</tr>
+</tbody>
+</table>
 </div>
 
 
@@ -57,10 +112,10 @@
 
 
 <h3>Navigation</h3>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="modules.html">Modules import</a></li>
-<li class="toctree-l1"><a class="reference internal" href="conditional-structures.html">Conditional structures</a></li>
-<li class="toctree-l1"><a class="reference internal" href="loops.html">Loops</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Conditional structures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="boucles.html">Boucles</a></li>
 <li class="toctree-l1"><a class="reference internal" href="exceptions.html">Exceptions, assertions</a></li>
 <li class="toctree-l1"><a class="reference internal" href="strings.html">Strings</a></li>
 <li class="toctree-l1"><a class="reference internal" href="lists-tuples.html">Lists and tuples</a></li>
@@ -78,6 +133,8 @@
 <h3>Related Topics</h3>
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="modules.html" title="previous chapter">Modules import</a></li>
+      <li>Next: <a href="boucles.html" title="next chapter">Boucles</a></li>
   </ul></li>
 </ul>
 </div>
@@ -112,6 +169,9 @@
       Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
+      |
+      <a href="_sources/conditional-structures.rst.txt"
+          rel="nofollow">Page source</a>
     </div>
 
     
