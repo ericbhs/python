@@ -15,6 +15,7 @@ Welcome to Python_OpenClassRoom's documentation!
    exceptions
    strings
    lists-tuples
+   dictionaries
    files
    variables_scope
    classes
